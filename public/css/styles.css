@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+li a{
+    text-decoration: none;
+    padding:0px 20px;
+    font-size: 20px;
+    float:right;
+    color: rgb(81, 75, 75);
+    font-weight: 800;
+    margin-top: 10px;
+    transition:0.1s;
+}
+li a:hover{
+    scale:1.1;
+    transition: 0.1s;
+}
+.navbar{
+    display: flex;
+    width: 99.999%;
+    justify-content: space-between;
+    margin:0px;
+    padding: 0px;
+    border-bottom: 2px solid rgb(137, 170, 222);
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+.booknow{
+    margin:15px 20px;
+    padding:13px 50px;
+    color: white;
+    background-color: rgb(236, 60, 107);
+    border-radius: 10px;
+    font-weight: 700;
+    border: 0px;
+    transform: 0.1s;
+}
+.book:hover{
+    scale:1.05;
+    transition: 0.1s;
+}
+.login{
+    padding:10px 50px;
+    color:rgb(236, 60, 107);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: 900;
+    border:2.5px solid;
+    transform: 0.1s;
+}
+.login:hover{
+    scale:1.05;
+    transition: 0.1s;
+}
+ .navbar h2 a{
+    text-decoration: none;
+    color: rgb(81, 151, 255);
+    font-size: larger;
+    transition: 0.1s;
+ }
+ .page2 p{
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(93, 92, 92);
+ }
+
+ .top:hover{
+    scale: 1.05;
+    transition: 0.3s;
+ }
+
+ body{
+    margin:0;
+    overflow-x:hidden;
+    }
+    
+    .footer{
+    background: rgb(240, 236, 244);
+    padding:15px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:rgb(245, 245, 245);
+    font-size:1px;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#ffffff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:1em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
